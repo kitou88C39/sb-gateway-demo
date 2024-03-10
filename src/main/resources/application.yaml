@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: posts-route
+          uri: http://localhost:8081
